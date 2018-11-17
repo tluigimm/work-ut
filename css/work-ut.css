@@ -1,5 +1,88 @@
 /* TAG */
 
+h1{
+  font-size: 2.5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: flex-start;
+  margin-top: 0.1rem;
+  display: inline;
+}
+
+body{
+  background-color: rgb(210,210,210);
+  display: grid;
+  grid-template-rows:10%, 80%, 10%;
+}
+
+header{
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 100%;
+  background-color: rgb(200,70,200);
+  border-bottom: solid;
+  display: grid;
+  grid-template-columns: 0.3, 0.4, 0.3;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0.2rem;
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-top: solid;
+  height: 2.5rem;
+  display: grid;
+  grid-template-columns: 0.3, 0.4, 0.3;
+}
+
 /* CLASSE */
+
+.profile_icon{
+  margin-top: 0.2rem;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.title{
+  margin-top: 0.2rem;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.config_icon{
+  margin-top: 0.4rem;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.challenges-footer{
+  background-color: rgb(190, 190, 190);
+  margin-top: 0.1rem;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.map-footer{
+  background-color: rgb(200, 200, 200);
+  margin-top: 0.1rem;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.ranking-footer{
+  background-color: rgb(200, 200, 200);
+  margin-top: 0.1rem;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
 
 /* ID */
