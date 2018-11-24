@@ -62,11 +62,15 @@ footer{
 }
 
 .challenges-footer{
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(200, 200, 200);
   margin-top: 0.1rem;
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 1;
+}
+
+.challenges-footer:hover {
+  background-color: gold;
 }
 
 .map-footer{
@@ -77,12 +81,20 @@ footer{
   grid-column-end: 2;
 }
 
+.map-footer:hover {
+  background-color: gold;
+}
+
 .ranking-footer{
   background-color: rgb(200, 200, 200);
   margin-top: 0.1rem;
   text-align: center;
   grid-column-start: 3;
   grid-column-end: 3;
+}
+
+.ranking-footer:hover {
+  background-color: gold;
 }
 
 /* ID */
