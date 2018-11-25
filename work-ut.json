@@ -1,0 +1,67 @@
+{
+  "Challenges":{
+    "ForcaBruta": {
+      "name": "Força bruta",
+      "photo": "images/challenge_corrida.jpeg",
+      "text": "Coloque sua força a mostra: faça 5 flexões sem tocar a mão no chão!",
+    },
+
+    "ResistenciaTotal": {
+      "name": "Resistência total",
+      "photo": "images/challenge_prancha.jpeg",
+      "text": "Você é resistente? Faça 20 minutos de prancha",
+    },
+
+    "PotenciaMax": {
+      "name": "Potência Máxima",
+      "pohto": "images/challenge_push-up.png",
+      "text": "Demonstre sua potência máxima correndo mais de 10km ao longo de um dia.",
+    }
+  },
+  
+  "Profiles":{
+    "RobertoPera": {
+      "photo": "images/ranking_profile1.jpeg",
+      "score": "430",
+      "name": "Roberto Pera",
+      "email": "NotMrIncredible@incredible.com",
+      "contact": "7070-7070",
+      "challenge1": "Força bruta",
+      "challenge2": "Resistência total",
+      "challenge3": "Potência máxima",
+    },
+
+    "DiaboLoiro": {
+      "photo": "images/profile1.jpeg",
+      "score": "570",
+      "name": "Diabo Loiro",
+      "email": "marcones.infra@agendarepublicana.com",
+      "contact": "8080-8080",
+      "challenge1": "Raio republicano",
+      "challenge2": "Baita infra",
+      "challenge3": "",
+    },
+
+    "lulaMolusco": {
+      "photo": "images/profile2.jpeg",
+      "score": "538",
+      "name": "Lula Molusco",
+      "email": "LulaLivreMolusco@elenao.com.br",
+      "contact": "9090-9090",
+      "challenge1": "Clarinete",
+      "challenge2": "",
+      "challenge3": "",
+    },
+
+    "ObiWan": {
+      "photo": "images/profile3.jpeg",
+      "score": "511",
+      "name": "Obi-wan Kenobi ",
+      "email": "HelloThere@generalkenobi.com",
+      "contact": "6060-6060",
+      "challenge1": "Destruir os siths",
+      "challenge2": "Keep the high ground",
+      "challenge3": "",
+    },
+  }
+}
