@@ -28,7 +28,7 @@ header{
   background-color: rgb(210,210,210);
   border-bottom: solid;
   display: grid;
-  grid-template-columns: 0.3, 0.4, 0.3;
+  grid-template-columns: 0.2, 0.8;
 }
 
 footer{
@@ -58,24 +58,19 @@ button{
 /* CLASSE */
 
 .title{
+  margin-left: -3.5rem;
   margin-top: 0.2rem;
-  text-align: center;
+  text-align: left;
   grid-column-start: 2;
   grid-column-end: 2;
 }
 
 .profile_icon{
+  margin-left: 1rem;
   margin-top: 0.5rem;
-  text-align: center;
+  text-align: left;
   grid-column-start: 1;
   grid-column-end: 1;
-}
-
-.config_icon{
-  margin-top: 0.4rem;
-  text-align: center;
-  grid-column-start: 3;
-  grid-column-end: 3;
 }
 
 .challenges-footer{

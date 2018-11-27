@@ -6,15 +6,12 @@
     <link href="css/work-ut.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="lib/map.js"></script>
 
     <title>work-ut</title>
 
     <header>
       <div class="profile_icon">
-        <a href="profile.html">
-          <img src='images/profile_icon.jpeg' height=40px id="profile_icon">
-        </a>
+        <img src='images/profile_icon.jpeg' height=40px id="profile_icon">
       </div>
 
       <div class="title">
@@ -22,12 +19,30 @@
       </div>
 
     </header>
+  </head>
 
   <body>
 
-    <div id="map"></div>
+    <section class="section_profile">
+      <div class="profile_pic">
+        <img src="images/profile1.jpeg" height=150px width=150px class="profile_pic_border">
+      </div>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArRfCXYpi-2BpTtCdgv2BFCVtNMZHmfiQ&callback=initMap"></script>
+      <div class="profile_information">
+        <p class="caps">570</p>
+        <p id="size-font">Diabo Loiro</p>
+      </div>
+    </section>
+    <section class="Email">
+      <p id="size-font">email: marcones.infra@agendarepublicana.com</p>
+      <p id="size-font">contato: 8080-8080</p>
+    </section>
+
+    <section class="Desafios">
+      <p class="caps">Desafios:<p/>
+        <li id="size-font">Raio republicano</li>
+        <li id="size-font">Baita infra</li>
+    </section>
 
     <footer>
       <div class="challenges-footer">
@@ -37,7 +52,9 @@
       </div>
 
       <div class="map-footer">
-        <img src='images/map_icon.png' height=35px>
+        <a href="work-ut_MAP.html">
+          <img src='images/map_icon.png' height=35px>
+        </a>
       </div>
 
       <div class="ranking-footer">
