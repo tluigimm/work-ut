@@ -46,6 +46,11 @@ p{
   font-size: 1.1rem;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 button{
   font-family: 'Product sans', sans-serif;
   font-size: 1.1rem;
@@ -273,6 +278,11 @@ button{
   font-weight: bold;
 }
 
+.map{
+  background-attachment: fixed;
+  position: static;
+}
+
 /* ID */
 
 #profile_icon{
@@ -281,10 +291,11 @@ button{
   border-radius: 20px
 }
 
-#size-font {
-line-height: 1.8rem;
+#map_header{
+  z-index: 1;
+  position: fixed;
 }
 
-#map_header{
-  position: fixed;
+#size-font {
+line-height: 1.8rem;
 }
